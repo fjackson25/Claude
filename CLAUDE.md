@@ -9,15 +9,16 @@ This file is Claude's persistent memory for this project. Claude Code loads it a
 - **Created:** 2026-09-27
 - **Owner:** fjackson25
 - **Repository:** fjackson25/claude
-- **Purpose:** _TBD. The user hasn't described the project yet._
+- **Purpose:** Currently a minimal "Hello" website, built as a first test of how Claude works.
 
 ## Tech stack
 
-_Not chosen yet._
+- Plain static HTML + inline CSS, no build step or dependencies.
+- `index.html` at the repo root is the whole site.
 
 ## Commands
 
-_None yet. Add build, test, lint, and run commands here once they exist._
+- **View locally:** open `index.html` in a browser, or run `python3 -m http.server 8000` and visit http://localhost:8000.
 
 ## Conventions & preferences
 
@@ -28,8 +29,9 @@ _None yet. Add build, test, lint, and run commands here once they exist._
 | Date | Decision | Reason |
 |------|----------|--------|
 | 2026-09-27 | Created CLAUDE.md as the project's memory file | User request |
+| 2026-09-27 | Built a single-page "Hello" site in plain HTML/CSS | User wanted a very simple site to see how Claude builds things; no framework needed |
 
 ## Open questions / next steps
 
-- Define the project's goal and scope.
-- Choose the tech stack.
+- Define the real project's goal and scope beyond the Hello test page.
+- Decide on hosting (e.g. GitHub Pages) if the site should be public.
